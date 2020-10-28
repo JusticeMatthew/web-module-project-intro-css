@@ -78,9 +78,6 @@ a {
     text-decoration: none;
 }
 
-section {
-    padding: 4% 0;
-}
 
 /* Image container settings
 
@@ -98,20 +95,39 @@ section {
 
 /* Start styling below */
 
-header {
-    width: 80%;
-    margin: 0 auto;
+.container {
+    width:65%;
+    margin:0 auto;
 }
 
 header nav {
     padding: 5%;
-    height: 10vh;   
 }
 
 header nav a {
-    padding: 1rem 2rem;
+    padding: 1rem 2.2rem;
+    border-radius: 10px;
+    
 }
 
 .plan {
     background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.involve {
+    background-color: #FFCD69;
+}
+
+.top-image {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.slogan {
+    display: inline-block;
+    width: 30%;
 }
