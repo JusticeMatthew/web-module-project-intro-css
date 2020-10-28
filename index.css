@@ -136,7 +136,7 @@ header nav a {
     display: inline-block;
     width: 60%;
     text-align: center;
-    margin: 0rem 0rem 10rem 3rem;
+    margin: 0rem 0rem 5rem 3rem;
 }
 
 .slogan h1 {
@@ -154,4 +154,17 @@ header nav a {
 .slogan h3 {
     width: 60%;
     margin-left: 20%;
+}
+
+.about {
+    padding: 0 3rem;
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+
+.about p {
+    padding: 1rem 0;
+    line-height: 2rem;
 }
