@@ -113,6 +113,12 @@ header nav a {
     width: 15rem;   
 }
 
+header nav a:hover {
+    background-color: white;
+    color: #4f4f4f;
+    font-style: italic;
+}
+
 .plan {
     background-color: #FF764E;
 }
@@ -182,8 +188,10 @@ header nav a {
     margin: 0 35%;
 }
 
-.fire span {
+.fire a {
+    color: red;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .reservations img {
@@ -229,3 +237,29 @@ footer nav a {
     line-height: 2rem;
     width: 15rem;   
 }
+
+/* Testing mouseover effects for the stretch work*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 8rem;
+    background-color: rgba(31, 31, 31, 0.658);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0.5rem 0;
+    position: absolute;
+    z-index: 1;
+    top: -0.5rem;
+    right: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
