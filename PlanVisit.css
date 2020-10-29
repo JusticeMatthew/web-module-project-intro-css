@@ -77,23 +77,6 @@ a {
     text-decoration: none;
 }
 
-
-/* Image container settings
-
-.container {
-  width: 100%;
-  background-image: url('');
-  height: 40vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
-}
-
-*/
-
-/* Start styling below */
-
 .container {
     width:55%;
     margin:0 auto;
@@ -162,8 +145,8 @@ header nav a:hover {
 }
 
 .about {
-    padding: 0 1.2rem;
-    background-color: #DDB9A3;
+    padding: 1.2rem;
+    background-color: #FF764E;
     color: white;
     text-align: center;
     letter-spacing: 1.4px;
@@ -175,61 +158,26 @@ header nav a:hover {
     line-height: 2rem;
 }
 
-.disclaimers {
-    text-align: center;
-}
-
-.fire img {
-    width: 10%;
-    padding: 2rem 0 1rem;
-}
-
-.fire p {
-    margin: 0 35%;
-}
-
-.fire a {
-    color: red;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.reservations img {
-    width: 10%;
-    padding: 6rem 0 1rem;
-}
-
-.reservations p {
-    margin: 0 35%;
-}
-
-.reservations span {
+.about a {
+    color:#4f4f4f;
     font-weight: bold;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
+.about span {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
   }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 8rem;
-    background-color: rgba(31, 31, 31, 0.658);
-    color: #fff;
+
+.recs {
     text-align: center;
-    border-radius: 6px;
-    padding: 0.5rem 0;
-    position: absolute;
-    z-index: 1;
-    top: -0.5rem;
-    right: 105%;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+}
 
 footer {
     margin-top: 10%;
