@@ -207,6 +207,30 @@ header nav a:hover {
     font-weight: bold;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 8rem;
+    background-color: rgba(31, 31, 31, 0.658);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0.5rem 0;
+    position: absolute;
+    z-index: 1;
+    top: -0.5rem;
+    right: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
 footer {
     margin-top: 10%;
 }
@@ -238,28 +262,8 @@ footer nav a {
     width: 15rem;   
 }
 
-/* Testing mouseover effects for the stretch work*/
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 8rem;
-    background-color: rgba(31, 31, 31, 0.658);
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 0.5rem 0;
-    position: absolute;
-    z-index: 1;
-    top: -0.5rem;
-    right: 105%;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+footer nav a:hover {
+    background-color: #F9E7DC;
+    color: #4f4f4f;
+    font-style: italic;
+}
