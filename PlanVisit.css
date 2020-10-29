@@ -144,7 +144,7 @@ header nav a:hover {
     margin-left: 20%;
 }
 
-.about {
+.covid {
     padding: 1.2rem;
     background-color: #FF764E;
     color: white;
@@ -153,17 +153,17 @@ header nav a:hover {
     margin: 0 3rem;
 }
 
-.about p {
+.covid p {
     padding: 1rem 0;
     line-height: 2rem;
 }
 
-.about a {
+.covid a {
     color:#4f4f4f;
     font-weight: bold;
 }
 
-.about span {
+.covid span {
     font-size: 3rem;
     font-weight: bold;
     animation: blinker 1s linear infinite;
@@ -175,8 +175,21 @@ header nav a:hover {
     }
   }
 
-.recs {
+.tips {
     text-align: center;
+}
+
+.tips h2 {
+    font-size: 2.5rem;
+    margin: 5%;
+}
+
+.tips ol {
+    list-style-type: disc;
+}
+
+.tips li {
+    padding: 2%;
 }
 
 footer {
